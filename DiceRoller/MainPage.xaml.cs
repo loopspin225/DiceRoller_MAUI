@@ -20,5 +20,13 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+    private void ResetBtn_Clicked(object sender, EventArgs e)
+    {
+		count = 0;
+		CounterBtn.Text = "Click Me";
+
+		SemanticScreenReader.Announce(ResetBtn.Text);
+    }
 }
 

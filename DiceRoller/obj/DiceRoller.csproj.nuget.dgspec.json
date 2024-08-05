@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jorda\\OneDrive\\Desktop\\Code Projects\\C#\\DiceRoller_MAUI\\DiceRoller\\DiceRoller.csproj": {}
+    "D:\\Code Projects\\VS22 C#\\DiceRoller_MAUI\\DiceRoller\\DiceRoller.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jorda\\OneDrive\\Desktop\\Code Projects\\C#\\DiceRoller_MAUI\\DiceRoller\\DiceRoller.csproj": {
+    "D:\\Code Projects\\VS22 C#\\DiceRoller_MAUI\\DiceRoller\\DiceRoller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorda\\OneDrive\\Desktop\\Code Projects\\C#\\DiceRoller_MAUI\\DiceRoller\\DiceRoller.csproj",
+        "projectUniqueName": "D:\\Code Projects\\VS22 C#\\DiceRoller_MAUI\\DiceRoller\\DiceRoller.csproj",
         "projectName": "DiceRoller",
-        "projectPath": "C:\\Users\\jorda\\OneDrive\\Desktop\\Code Projects\\C#\\DiceRoller_MAUI\\DiceRoller\\DiceRoller.csproj",
-        "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorda\\OneDrive\\Desktop\\Code Projects\\C#\\DiceRoller_MAUI\\DiceRoller\\obj\\",
+        "projectPath": "D:\\Code Projects\\VS22 C#\\DiceRoller_MAUI\\DiceRoller\\DiceRoller.csproj",
+        "packagesPath": "C:\\Users\\Jordan\\.nuget\\packages\\",
+        "outputPath": "D:\\Code Projects\\VS22 C#\\DiceRoller_MAUI\\DiceRoller\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
+        "fallbackFolders": [
+          "D:\\Program files (x86)\\Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jorda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Jordan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-android",
@@ -24,6 +29,7 @@
           "net8.0-windows10.0.19041.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -244,13 +250,13 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-arm64": {
+        "iossimulator-x64": {
           "#import": []
         },
-        "maccatalyst-arm64": {
+        "maccatalyst-x64": {
           "#import": []
         },
-        "win10-arm64": {
+        "win10-x64": {
           "#import": []
         }
       }
