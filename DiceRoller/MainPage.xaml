@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DiceRoller.MainPage">
+             x:Class="DiceRoller.MainPage"
+             BackgroundColor="DarkGray">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -20,6 +21,8 @@
 
         <VerticalStackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" Margin="30">
             <Button Text="2"
+                    BackgroundColor="Firebrick"
+                    TextColor="Black"
                     FontSize="Medium"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -27,6 +30,8 @@
                     WidthRequest="60"
                     Clicked="Button2_Clicked" />
             <Button Text="4"
+                    BackgroundColor="Azure"
+                    TextColor="Black"
                     FontSize="Medium"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -34,6 +39,8 @@
                     WidthRequest="60"
                     Clicked="Button4_Clicked" />
             <Button Text="6"
+                    BackgroundColor="OrangeRed"
+                    TextColor="Black"
                     FontSize="Medium"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -41,6 +48,8 @@
                     WidthRequest="60"
                     Clicked="Button6_Clicked" />
             <Button Text="8"
+                    BackgroundColor="Crimson"
+                    TextColor="Black"
                     FontSize="Medium"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -48,6 +57,8 @@
                     WidthRequest="60"
                     Clicked="Button8_Clicked" />
             <Button Text="10"
+                    BackgroundColor="MintCream"
+                    TextColor="Black"
                     FontSize="Medium"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -55,6 +66,8 @@
                     WidthRequest="60"
                     Clicked="Button10_Clicked" />
             <Button Text="20"
+                    BackgroundColor="Purple"
+                    TextColor="Black"
                     FontSize="Medium"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -62,7 +75,9 @@
                     WidthRequest="60"
                     Clicked="Button20_Clicked" />
             <Button Text="100"
-                    FontSize="Medium"
+                    BackgroundColor="Black"
+                    TextColor="LightGray"
+                    FontSize="Small"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
                     HeightRequest="60"
@@ -70,11 +85,12 @@
                     Clicked="Button100_Clicked" />
         </VerticalStackLayout>
 
-        <Label Grid.Row="1" Grid.Column="1" Margin="10"
+        <Label x:Name="Result"
+               Grid.Row="1" Grid.Column="1" Margin="10"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"
                Style="{StaticResource Headline}"
-               Text="Results"/>
+               Text="0"/>
 
 
     </Grid>

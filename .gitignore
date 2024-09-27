@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/DiceRoller/DesignTimeBuild/.dtbcache.v2
+/.vs/DiceRoller/FileContentIndex/83c6b6b7-cf51-4ee5-b3e7-72121c346ace.vsidx
+/.vs/DiceRoller/FileContentIndex/8af8d962-87f3-4297-8581-e284c93721db.vsidx
+/.vs/DiceRoller/FileContentIndex/ab617087-1c05-4806-b00d-a55a39acb252.vsidx
+/.vs/DiceRoller/FileContentIndex/f11075c9-8f59-4441-a85c-bfbb25229cba.vsidx
+/.vs/DiceRoller/v17/.futdcache.v2
+/.vs/DiceRoller/v17/.suo
+/.vs/DiceRoller/v17/DocumentLayout.backup.json
+/.vs/DiceRoller/v17/DocumentLayout.json
+/.vs/ProjectEvaluation/diceroller.metadata.v9.bin
+/.vs/ProjectEvaluation/diceroller.projects.v9.bin
+/.vs/ProjectEvaluation/diceroller.strings.v9.bin
