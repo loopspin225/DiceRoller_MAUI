@@ -16,6 +16,8 @@
         <Label Grid.ColumnSpan="2" Margin="10"
             Text="Select the dice you want to roll"
             Style="{StaticResource SubHeadline}"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
             WidthRequest="400"
             SemanticProperties.HeadingLevel="Level1"/>
 

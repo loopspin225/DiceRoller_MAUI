@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\Code Projects\VS22 C#\DiceRoller_MAUI\DiceRoller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-09-27T22:36:01.940</Modified>
+      <Modified>2024-09-28T12:24:27.017</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code Projects\VS22 C#\DiceRoller_MAUI\DiceRoller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DiceRoller.dll">
       <PackagePath>DiceRoller.dll</PackagePath>
-      <Modified>2024-09-27T22:36:01.708</Modified>
+      <Modified>2024-09-28T12:24:26.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code Projects\VS22 C#\DiceRoller_MAUI\DiceRoller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DiceRoller.exe</PackagePath>
-      <Modified>2024-09-27T22:36:01.780</Modified>
+      <Modified>2024-09-28T12:24:26.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code Projects\VS22 C#\DiceRoller_MAUI\DiceRoller\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

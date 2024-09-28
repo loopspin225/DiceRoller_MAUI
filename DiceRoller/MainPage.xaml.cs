@@ -23,37 +23,37 @@ public partial class MainPage : ContentPage
 
     private void Button2_Clicked(object sender, EventArgs e)
     {
-        Result.Text = Randomise(2);
+        Result.Text = Randomise(3);
     }
 
     private void Button4_Clicked(object sender, EventArgs e)
     {
-        Result.Text = Randomise(4);
+        Result.Text = Randomise(5);
     }
 
     private void Button6_Clicked(object sender, EventArgs e)
     {
-        Result.Text = Randomise(6);
+        Result.Text = Randomise(7);
     }
 
     private void Button8_Clicked(object sender, EventArgs e)
     {
-        Result.Text = Randomise(8);
+        Result.Text = Randomise(9);
     }
 
     private void Button10_Clicked(object sender, EventArgs e)
     {
-        Result.Text = Randomise(10);
+        Result.Text = Randomise(11);
     }
 
     private void Button20_Clicked(object sender, EventArgs e)
     {
-        Result.Text = Randomise(20);
+        Result.Text = Randomise(21);
     }
 
     private void Button100_Clicked(object sender, EventArgs e)
     {
-        Result.Text = Randomise(100);
+        Result.Text = Randomise(101);
     }
 }
 
