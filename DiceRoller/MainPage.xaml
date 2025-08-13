@@ -89,11 +89,22 @@
 
         <Label x:Name="Result"
                Grid.Row="1" Grid.Column="1" Margin="10"
-               HorizontalOptions="CenterAndExpand"
-               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
                Style="{StaticResource Headline}"
                Text="0"/>
 
+        <Button x:Name="RollButton"
+                Grid.Row="2" Grid.Column="1" Margin="100"
+                Text="Roll"
+                BackgroundColor="#FF6F6F6F"
+                TextColor="Black"
+                FontSize="Medium"
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HeightRequest="60"
+                WidthRequest="200"
+                Clicked="RollButton_Clicked"/>
 
     </Grid>
     

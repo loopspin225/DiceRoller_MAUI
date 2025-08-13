@@ -1,19 +1,20 @@
-﻿namespace DiceRoller;
+﻿using System.Diagnostics.Metrics;
+
+namespace DiceRoller;
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
-
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+    int[] Results = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    public MainPage()
+    {
+        InitializeComponent();
+    }
 
     public string Randomise(int value)
     {
         var rand = new Random();
         int randValue = 0;
-        while(randValue <= 0)
+        while (randValue <= 0)
         {
             randValue = rand.Next(value);
         }
@@ -54,6 +55,10 @@ public partial class MainPage : ContentPage
     private void Button100_Clicked(object sender, EventArgs e)
     {
         Result.Text = Randomise(101);
+    }
+    private void RollButton_Clicked(object sender, EventArgs e)
+    {
+        
     }
 }
 
